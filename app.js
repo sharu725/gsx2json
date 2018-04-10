@@ -27,6 +27,6 @@ app.use(function(err, req, res, next) {
   res.status(400).send(err.message);
 });
 
-app.listen(process.env.PORT || 3000, function() {
+app.listen(process.env.PORT || 5000, function() {
   console.log('GSX2JSON listening on port ' + port);
 });
